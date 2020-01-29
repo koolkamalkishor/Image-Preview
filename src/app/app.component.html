@@ -1,0 +1,6 @@
+<hello name="{{ name }}"></hello>
+
+
+<h3>Angular7 Image Preview before Upload:</h3><br/><br/>
+<img [src]="url" height="200" *ngIf="url"> <br/><br/>
+<input type='file' (change)="onSelectFile($event)">
